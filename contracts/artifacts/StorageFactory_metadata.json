@@ -1,0 +1,105 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "CreateNewSimpleStorageContact",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_favNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "callStoreFromSimpleStorage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getFavFromSimpleStorage",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "simpleStorage",
+				"outputs": [
+					{
+						"internalType": "contract SimpleStorage",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/StorageFactory.sol": "StorageFactory"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SimpleStorage.sol": {
+			"keccak256": "0xee046cbe5bbfb7c95efe413e05943f670ca5ce4e6da871e36d04682b26b22939",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e9a6f25cca142398d471fc09044d8837f6386c7f14a2ae678df94aafbf7ce02e",
+				"dweb:/ipfs/QmWY7dW7uWu94NEqgVHJaRnDMPwuHn7ewXx3xmpVvEm131"
+			]
+		},
+		"contracts/StorageFactory.sol": {
+			"keccak256": "0x7a0746b4b73bbe9907dfae5e39a3c300937485b2291c282295339b5883790d92",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://56abcd1ff6bf932994d55701a85f65192700dd3ac3d20c7abc838fcd21ecb5ae",
+				"dweb:/ipfs/QmdemsAdNNhwqBJthaE3y6xCWgTby93UFAHYMVphiLxNhc"
+			]
+		}
+	},
+	"version": 1
+}
