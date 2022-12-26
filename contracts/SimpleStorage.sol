@@ -7,7 +7,7 @@ contract SimpleStorage {
 // Avalanche, Polygon, Fanthom
     uint256 public favNumber;
 
-    function store (uint256 _favNumber) public{
+    function store (uint256 _favNumber) public virtual{
         favNumber = _favNumber;
     }
     mapping(string => People) public getPerson;

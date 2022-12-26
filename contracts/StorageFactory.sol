@@ -20,5 +20,5 @@ contract StorageFactory {
     } 
     function callStoreFromSimpleStorage (uint256 _favNumber) public{
        simpleStorage.store(_favNumber);
-    }
+    }  
 }
